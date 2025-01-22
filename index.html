@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<style>
- *{width: 100%;
-  height: 100%;
-  padding: 0%;
-  margin: 0%; }
-
-div{
-    width: 300px;
-    position: absolute;
-    float: right;
-    right: 0px;
-    transition-duration: .2s;
-}
-
-</style>
-<body style="background-color:yellow ;">
-    <div id="divmenu">
-        <iframe id="menu" src="menu.html" frameborder="0" onmouseover="divover()"></iframe>
+<body dir="rtl">
+    <div id="layout" style="width: 800px;border-style: double;">
+        <header style="background-color: darkorange;text-align: center;">
+            <h2>فروشگاه محصولات ایرانی</h2>
+        </header>
+        <nav style="background-color: pink;text-align: center;">
+            <b style="background-color: rgb(102, 0, 255);">صفحه اصلی</b>|
+            <b style="background-color: rgb(23, 255, 11);">عضویت </b>|
+            <b style="background-color: rgb(243, 11, 11);">ورود </b>|
+            <b style="background-color: rgb(127, 25, 113);">خرید محصولات</b>|
+            <b style="background-color: rgb(233, 149, 15);">ارتباط با ما</b>|
+        </nav>
+        <div id="wrapper">
+            <section style="height: 400px;background-color: #eeeeee;">
+                <article style="text-align: right;color: rgb(128, 0, 0);padding: 10px;">
+                <h2>انواع محصولات ایرانی</h2>
+                پسته<br>
+                خرما<br>
+                زعفران<br>
+                گز
+                
+                </article>
+            </section>
+        </div>
+        <footer style="background-color: coral;text-align: center;">
+            <h3>متن و تصویر پاورقی</h3>
+        </footer>
     </div>
-    <iframe id="main" src="" frameborder="0"></iframe>
 </body>
 </html>
-<script>
-    function divover(){
-        if(divover.style.right=='-298'){
-            divover.style.right='0px'
-        }
-    }
-</script>
