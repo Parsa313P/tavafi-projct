@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+ *{width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%; }
+
+div{
+    width: 300px;
+    position: absolute;
+    float: right;
+    right: 0px;
+    transition-duration: .2s;
+}
+
+</style>
+<body style="background-color:yellow ;">
+    <div id="divmenu">
+        <iframe id="menu" src="menu.html" frameborder="0" onmouseover="divover()"></iframe>
+    </div>
+    <iframe id="main" src="" frameborder="0"></iframe>
+</body>
+</html>
+<script>
+    function divover(){
+        if(divover.style.right=='-298'){
+            divover.style.right='0px'
+        }
+    }
+</script>
